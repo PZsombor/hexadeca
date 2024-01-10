@@ -7,12 +7,12 @@ public class HexadecagonTest {
     Hexadecagon hexadecagon;
 
     @BeforeTest
-    public void testCalc() {
+    public void setUp() {
         this.hexadecagon = new Hexadecagon();
     }
 
     @Test
-    public void testCalc2() {
-        this.hexadecagon.calc();
+    public void testCalcArea() {
+        this.hexadecagon.calcArea();
     }
 }
