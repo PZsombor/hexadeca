@@ -13,7 +13,7 @@ public class HexadecagonTest {
 
     @Test
     public void testCalcArea() {
-        double area = this.hexadecagon.calcArea(30);
+        double actual = this.hexadecagon.calcArea(30.0);
     }
 
 }
